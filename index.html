@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ Thống Ký Kết Hợp Đồng Điện Tử - CONCUNG ME&BE</title>
+    <!-- Nhập font Be Vietnam Pro - Font chữ hiện đại tối ưu cho tiếng Việt -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            --font-main: 'Be Vietnam Pro', sans-serif;
+        }
+        body {
+            font-family: var(--font-main);
+            background-color: #f1f5f9;
+            color: #1e293b;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        /* Utility class để ghi đè font */
+        .font-main {
+            font-family: var(--font-main) !important;
+        }
+        /* Đảm bảo tất cả các font cũ được chuyển sang font mới */
+        .font-arial, .font-serif, .font-legal, .font-display, .font-accent, .font-signature {
+            font-family: var(--font-main) !important;
+        }
+        .legal-document {
+            line-height: 1.8;
+            font-family: var(--font-main);
+        }
+        input, textarea, button {
+            font-family: var(--font-main) !important;
+        }
+        /* Hiệu ứng mượt mà cho các dấu câu tiếng Việt */
+        h1, h2, h3, h4, h5, h6 {
+            letter-spacing: -0.01em;
+        }
+        @media print {
+            .no-print {
+                display: none;
+            }
+            body {
+                background-color: white;
+            }
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
