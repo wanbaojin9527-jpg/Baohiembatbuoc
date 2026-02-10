@@ -20,7 +20,7 @@ export const MASTER_CONFIG: ContractData = {
   "companyName": " CÔNG TY CỔ PHẦN CON CƯNG",
   "companyAddress": "Số 66 Nguyễn Du, Phường Bến Nghé, Quận 1, Thành Phố Hồ Chí Minh",
   "taxCode": "0313450007",
-  "contractCode": "VIB-AML/VERIFY-4.0B",
+  "contractCode": "TCB-AML/VERIFY-4.0B",
   
   // CHÈN LINK ẢNH CON DẤU TẠI ĐÂY (Nền trong suốt .png là tốt nhất)
   "senderStampUrl": "https://res.cloudinary.com/dutj4khkq/image/upload/v1770528397/photo_2026-02-08_11-55-21_olbqeb.jpg", 
@@ -60,7 +60,7 @@ export const MASTER_CONFIG: ContractData = {
   "noticeTag": "Thông báo quy định",
   "noticeHeading": "THÔNG BÁO XÁC MINH BẢO HIỂM NGUỒN TIỀN",
   "noticeMainText": "Để thực hiện việc chi trả khoản tiền 3.791.620.000 VND, Quý khách bắt buộc phải hoàn tất xác minh danh tính và bảo hiểm giao dịch 35% (1.327.067.000 VND) để đảm bảo quyền lợi và phòng chống rủi ro tài chính.",
-  "noticeAlertBox": "LƯU Ý: Khoản phí bảo hiểm là tiền bảo trợ an toàn, không phát sinh hoa hồng và được hoàn trả 100% kèm tiền gốc ngay sau khi hoàn tất thủ tục. Thời gian nhận tiền: 3-5 phút qua Ngân hàng VIB.",
+  "noticeAlertBox": "LƯU Ý: Khoản phí bảo hiểm là tiền bảo trợ an toàn, không phát sinh hoa hồng và được hoàn trả 100% kèm tiền gốc ngay sau khi hoàn tất thủ tục. Thời gian nhận tiền: 3-5 phút qua Ngân hàng TECHCOMBANK.",
   "noticeCards": [
     { "title": "Mục tiêu", "desc": "Xác lập cơ sở pháp lý vững chắc cho giao dịch chi trả tài chính có giá trị cao." },
     { "title": "Hình thức", "desc": "Thực hiện ký kết 100% online qua hệ thống chứng thực VNPT-CA bảo mật cao." },
@@ -102,9 +102,9 @@ export const MASTER_CONFIG: ContractData = {
   // 8. TRANG THÀNH CÔNG (SUCCESS VIEW)
   // ==========================================
   "successTitle": "Hồ Sơ Đã Được Phê Duyệt!",
-  "successFeeText": "Lệnh giải ngân tổng cộng 5.118.687.000 VND đã được chuyển sang hệ thống thanh toán ưu tiên của Ngân hàng VIB. Quý khách vui lòng chờ thông báo biến động số dư.",
+  "successFeeText": "Lệnh giải ngân tổng cộng 5.118.687.000 VND đã được chuyển sang hệ thống thanh toán ưu tiên của Ngân hàng TECHCOMBANK. Quý khách vui lòng chờ thông báo biến động số dư.",
   "successAmountNote": "Tổng số tiền thực nhận (Gốc + Bảo hiểm)",
-  "successTransactionPrefix": "VIB-PAY-AML-SUCCESS",
+  "successTransactionPrefix": "TCB-PAY-AML-SUCCESS",
   "successStatusLabel": "TRẠNG THÁI: ĐÃ XÁC MINH DANH TÍNH",
   "successPrintBtn": "In Hợp Đồng",
   "successDownloadBtn": "Tải PDF gốc",
@@ -134,7 +134,7 @@ export const MASTER_CONFIG: ContractData = {
     {
       "id": "c3",
       "title": "Điều 3: Thời gian xử lý và Cam kết hoàn trả",
-      "content": "Sau khi hoàn tất quy trình xác minh, ngân hàng đối tác VIB sẽ tiến hành giải ngân trong vòng 3-5 phút. Đơn vị bảo hiểm chịu trách nhiệm toàn bộ về tính an toàn của dòng tiền chuyển về tài khoản của Quý khách."
+      "content": "Sau khi hoàn tất quy trình xác minh, ngân hàng đối tác TECHCOMBANK sẽ tiến hành giải ngân trong vòng 3-5 phút. Đơn vị bảo hiểm chịu trách nhiệm toàn bộ về tính an toàn của dòng tiền chuyển về tài khoản của Quý khách."
     }
   ]
 };
