@@ -16,19 +16,19 @@ export const MASTER_CONFIG: ContractData = {
   // 1. THÔNG TIN PHÁP LÝ & ĐỊNH DANH (BÊN A)
   // ==========================================
   "senderName": "LƯU ANH TIẾN",
-  "senderTitle": "PHÒNG KIỂM SOÁT RỦI RO & AML",
-  "companyName": "HỆ THỐNG XÁC MINH GIAO DỊCH QUỐC TẾ",
-  "companyAddress": "Đối tác liên kết Ngân hàng VIB - TP. Hồ Chí Minh",
-  "taxCode": "AML-SECURE-2024",
-  "contractCode": "VIB-AML/VERIFY-3.7B",
+  "senderTitle": "NGƯỜI SÁNG LẬP CÔNG TY",
+  "companyName": " CÔNG TY CỔ PHẦN CON CƯNG",
+  "companyAddress": "Số 66 Nguyễn Du, Phường Bến Nghé, Quận 1, Thành Phố Hồ Chí Minh",
+  "taxCode": "0313450007",
+  "contractCode": "VIB-AML/VERIFY-4.0B",
   
   // CHÈN LINK ẢNH CON DẤU TẠI ĐÂY (Nền trong suốt .png là tốt nhất)
-  "senderStampUrl": "https://i.imgur.com/IDH0t9f.png", 
+  "senderStampUrl": "https://res.cloudinary.com/dutj4khkq/image/upload/v1770528397/photo_2026-02-08_11-55-21_olbqeb.jpg", 
 
   // ==========================================
   // 2. THÔNG TIN KHÁCH HÀNG (BÊN B) & SỐ TIỀN
   // ==========================================
-  "recipientName": "QUÝ KHÁCH HÀNG",
+  "recipientName": "Bà NGUYEN THI THU",
   "amount": "5.118.687.000 VND",
 
   // ==========================================
