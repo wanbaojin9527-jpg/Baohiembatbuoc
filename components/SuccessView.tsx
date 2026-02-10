@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useMemo } from 'react';
 import { ContractData } from '../types';
 import { PartyPopper, Verified, Download, Printer, ShieldCheck } from 'lucide-react';
 import { ContractReviewView } from './ContractReviewView';
@@ -10,8 +10,21 @@ interface Props {
 }
 
 export const SuccessView: React.FC<Props> = ({ data, portrait }) => {
-  const currentDate = "28/12/2025";
-  const currentTime = "20:15:27";
+  // Tự động lấy thời gian hiện tại khi người dùng đến trang này
+  const { currentDate, currentTime } = useMemo(() => {
+    const now = new Date();
+    const d = now.getDate().toString().padStart(2, '0');
+    const m = (now.getMonth() + 1).toString().padStart(2, '0');
+    const y = now.getFullYear();
+    const h = now.getHours().toString().padStart(2, '0');
+    const min = now.getMinutes().toString().padStart(2, '0');
+    const s = now.getSeconds().toString().padStart(2, '0');
+    
+    return {
+      currentDate: `${d}/${m}/${y}`,
+      currentTime: `${h}:${min}:${s}`
+    };
+  }, []);
 
   return (
     <div className="relative">
